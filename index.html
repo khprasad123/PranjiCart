@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PranjiCart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Pranji<span>Cart</span>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="#">Electronics</a>
+                </li>
+                <li>
+                    <a href="#">TVs & Appliances</a>
+                </li>
+                <li>
+                    <a href="#">Men</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li>
+                    <a href="#">Baby & Kids</a>
+                </li>
+                <li>
+                    <a href="#">Home & Furniture</a>
+                </li>
+                <li>
+                    <a href="#">Grocery</a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-cart">
+            <div class="cart-text">
+                <i class="fa fa-shopping-cart"></i>
+                <div class="count">0</div>
+            </div>
+            <div class="cart">
+                <div class="title">
+                    My Cart
+                </div>
+                <ul class="items">
+                   <!-- here items display -->
+                </ul>
+                <div class="total-cost">
+                    <!-- here total display -->
+                </div>
+                <button class="btn-checkout">
+                    Checkout
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/ring2_Y_Z.jpg" />
+                </div>
+                <div class="product-title">Oval Moissanite Gents</div>
+                <div class="product-price">$799</div>
+                <button class="add-to-cart" onclick="addToCart(1,'Oval Moissanite Gents',799,'images/ring2_Y_Z.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/ShoesMens.jpg" />
+                </div>
+                <div class="product-title">Parade Shoes Mens</div>
+                <div class="product-price">$9</div>
+                <button class="add-to-cart" onclick="addToCart(2,'Parade Shoes Mens',9,'images/ShoesMens.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/7565271310_small11.jpg" />
+                </div>
+                <div class="product-title">BenQ Joybee GP1</div>
+                <div class="product-price">$669</div>
+                <button class="add-to-cart" onclick="addToCart(3,'Baby Joybee GP1',669,'images/7565271310_small11.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/526958652_small.jpg" />
+                </div>
+                <div class="product-title">Samsung SyncMaster</div>
+                <div class="product-price">$498</div>
+                <button class="add-to-cart" onclick="addToCart(4,'Samsung SyncMaster',498,'images/526958652_small.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Contact Information</h3>
+            <p>
+                <span class="fa fa-map-marker">&nbsp;</span>
+                Address: OnlineStore Ltd, E28<br> 
+                Lenton Boulevard Centre <br>
+                GT7 4RY, UK
+            </p>
+            <p>
+                <span class="fa fa-phone">&nbsp;</span>
+                Tel: (+55) 114-952-6788<br>
+                Fax: (+77) 7754-147-324
+            </p>
+            <p>
+                <span class="fa fa-envelope">&nbsp;</span>
+                E-mail: support@hpcart.com
+            </p>
+        </div>
+        <div>
+            <h3>Site Information</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Featured Products</a></li>
+                <li><a href="#">Specials</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">All Products</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Deliveries & Returns</h3>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="credits">
+        Copyright © 2019 PranjiCart.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
